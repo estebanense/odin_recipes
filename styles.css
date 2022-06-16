@@ -45,8 +45,13 @@ body {
     border-radius: 0 4px 4px 0;
   }
 
-  .content li {
-    display: inline-block;
-    height: 30px;
+ .content li{
+  border: solid #b6b6b6 1px;
+  border-radius: 5px;
+  margin-bottom:  10px;
+  list-style:none
+ }
 
-  }
+ .content h1 {
+  text-align: center;
+ }
