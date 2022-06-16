@@ -46,12 +46,38 @@ body {
   }
 
  .content li{
+  display: flex;
+  flex-direction: column;
   border: solid #b6b6b6 1px;
   border-radius: 5px;
   margin-bottom:  10px;
-  list-style:none
+  list-style:none;
+  min-width: 300px;
+  align-items: center;
+  text-align: center;
+  transition: transform .2s ease-out; 
+ }
+
+ .content li:hover{
+  box-shadow:  0 0 6px 0px rgba(0, 0, 0, .3);
+  transform:scale(1.01)
  }
 
  .content h1 {
   text-align: center;
+  
  }
+
+ .ulist{
+   display: flex;
+   justify-content: space-around;
+   
+ }
+
+ .ulist img{
+   margin: 10px;
+ }
+
+ .disable-links {
+  pointer-events: none;
+}
